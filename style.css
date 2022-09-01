@@ -1,0 +1,192 @@
+body {
+    font-family: cursive;
+    margin: 0px;
+}
+
+.contenedor_principal {
+    display: flex;
+}
+
+.nav-title {
+    color: white;
+    font-weight: auto;
+    margin-bottom: 25px;
+}
+
+.nav {
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(56, 66, 66);
+    padding-inline: 10px;
+}
+
+
+.nav-links {
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(33, 167, 172);
+    border-color: black;
+    color: white;
+}
+
+.btn {
+    width: 120px;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px 10px 5px 20px
+}
+
+.contenedor {
+    margin: 20px;
+    height: 300px;
+    width: 700px;
+    border: gray solid;
+    position: relative;
+}
+
+.bloque {
+    height: 70px;
+    background: rgb(28, 152, 156);
+    display: flex;
+}
+
+.bloque img {
+    border: white solid;
+    border-radius: 50%;
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.bloque2 {
+    padding-left: 20px;
+}
+
+.bloque2 img {
+    width: 10px;
+    margin-right: 5px;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+.contenedor_lateral {
+    position: relative;
+}
+
+.bloques {
+    align-items: flex-end;
+    border: solid gray;
+    margin: 20px;
+    width: 250px;
+}
+
+.cabecera {
+    background: rgb(56, 66, 66);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.boton2, .boton3 {
+    color: whitesmoke;
+    background-color: grey;
+    border: 0;
+    height: 30px;
+    width: 40px;
+    border-radius: 40%;
+    margin-top: 10px;
+}
+
+.contenido {
+    padding: 5px;
+}
+
+.ver_mas {
+    border-top: solid grey;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.imagen_solicitud img {
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.imagen_solicitud1{
+    height: 20px;
+    justify-content: end;
+    margin-left: 15px;
+}
+
+.imagen_solicitud1 img {
+    height: 20px;
+    padding: 2px;
+}
+
+
+.solicitud_uno, .solicitud_dos {
+    display: -webkit-box;
+    width: 100%;
+}
+
+.solicitud_uno>.imagen_solicitud1 {
+    /*para que div esten en linea*/
+    display: flex;
+    width: 60%;
+}
+
+.solicitud_dos>.imagen_solicitud1 {
+    /*para que div esten en linea*/
+    display: flex;
+    width: 60%;
+}
+
+.solicitud1 {
+    display: flex;
+    width: 60%;
+}
+
+.contenedor_abajo {
+    display: inline-block;
+    margin: 20px;
+    width: 700px;
+    border: gray solid;
+    position: relative;
+}
+
+.educacion {
+    background-color: rgb(56, 66, 66);
+    color: white;
+    padding: 1px;
+}
+
+.educacion p {
+    margin-left: 20px;
+}
+
+h3 {
+    height: 15px;
+}
+
+.informacion {
+    margin-left: 20px;
+}

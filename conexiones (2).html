@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karina Lopez">
+    <title>Conexiones</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-title">
+            <h1>Perfil</h1>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#" class="active"><strong>Mi Perfil</strong></a></li>
+                <li><a href="#">Encontrar conexiones</a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button>Cerrar sesión</button>
+        </div>
+    </div>
+
+    <div class="contenedor_principal">
+        <div class="contender_izquierda">
+            <div class="contenedor">
+                <div class="bloque">
+                    <img src="img/user-circle.png"
+                        alt="imagen_usuario">
+                </div>
+                <div class="bloque2">
+                    <h1>Karina López</h1>
+                    <p><img src="img/map-marker.png"
+                            alt="ciudad"> Viña del Mar</p>
+                    <p>Kinesióloga | Cosmetologa <br> Alumna Coding Dojo - Desarrolladora Web</p>
+
+                    <img src="img/gear.png"
+                        alt="imagen_ajustes">
+                    <a href="#" onclick="editarPerfil()"> Editar Perfil</a>
+                </div>
+            </div>
+
+            <div class="contenedor_abajo">
+                <div class="educacion">
+                    <p>Educación</p>
+                </div>
+                <div class="informacion">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <h5>En proceso</h5>
+                    <h3><span style="font-weight:normal"> Triple black belt in Python, Full Stack</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor_lateral">
+            <div class="bloques">
+                <div class="cabecera">
+                    <button class="boton2" type="button">2</button>
+                    <p> Solicitudes de Conexión </p>
+                </div>
+                <div class="contenido">
+                    <div class="solicitud_uno">
+                        <div class="imagen_solicitud">
+                            <img src="img/todd-s.jpg"
+                                alt="imagen_usuario"> 
+                        </div>
+                        <div>Tood E</div>
+                        <div class="imagen_solicitud1">
+                            <img src="img/accept-circle.png"
+                                alt="aceptar" onclick="solicitudAmistad(11)">
+                            <img src="img/close-circle.png"
+                                alt="rechazar" onclick="solicitudAmistad(12)">
+                        </div>
+                    </div>
+
+                    <div class="solicitud_dos">
+                        <div class="imagen_solicitud">
+                            <img src="img/phil-s.jpg"
+                                alt="imagen_usuario">
+                        </div>
+                        <div>Phil K</div>
+                        <div class="imagen_solicitud1">
+                            <img src="img/accept-circle.png"
+                                alt="aceptar" onclick="solicitudAmistad(21)">
+                            <img src="img/close-circle.png"
+                                alt="rechazar" onclick="solicitudAmistad(22)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bloques">
+                <div class="cabecera">
+                    <button class="boton3" type="button">418</button>
+                    <p> Tus Conexiones </p>
+                </div>
+                <div class="contenido">
+                    <div class="solicitud1">
+                        <div class="imagen_solicitud">
+                            <img src="img/adrien-s.jpg"
+                                alt="imagen_usuario">
+                        </div>
+                        <div>Adrien D</div>
+                    </div>
+                    <div class="solicitud1">
+                        <div class="imagen_solicitud">
+                            <img src="img/anne-s.jpg"
+                                alt="imagen_usuario">
+                        </div>
+                        <div>Anne J</div>
+                    </div>
+                    <div class="solicitud1">
+                        <div class="imagen_solicitud">
+                            <img src="img/alayne-s.jpg"
+                                alt="imagen_usuario">
+                        </div>
+                        <div>Alayne T</div>
+                    </div>
+                    <div class="solicitud1">
+                        <div class="imagen_solicitud">
+                            <img src="img/arry-s.jpg"
+                                alt="imagen_usuario">
+                        </div>
+                        <div>Arry Y</div>
+                    </div>
+                </div>
+                <div class="ver_mas">
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+
+</body>
+
+</html>
